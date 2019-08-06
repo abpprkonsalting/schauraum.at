@@ -136,7 +136,7 @@ float: left;
 
 }
 
-.avia-menu.av_menu_icon_beside{padding-right:25px; margin-right:25px; border-right-width: 1px; border-right-style: solid;  }
+.avia-menu.av_menu_icon_beside{padding-right:25px; margin-right:25px; border-right-width: 0px; border-right-style: solid;  }
 .fallback_menu + .social_bookmarks { padding-left: 18px; }
 
 #header_meta{
