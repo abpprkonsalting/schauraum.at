@@ -6,7 +6,106 @@
 #header_main .av-main-nav li {
   float: right;
 }
+
+#text-4{
+  left: 98px;
+  font-weight: bolder;
+}
+
+#media_image-3 h3{
+  margin-left: 55px;
+  color: #e8eee8;
+  margin-top: -2px;
+}
+
+#media_image-3{
+  padding: 14px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.image.wp-image-90.attachment-full.size-full{
+  padding: 43px;
+  margin-top: -78px;
+  margin-left: -36px;
+}
+
+#media_image-4{
+  left: 189px;
+  top: -120px;
+}
+
+#media_image-4 h3{
+  color: #e8eee8;
+  margin-left: 40px;
+}
+
+.image.wp-image-91.attachment-full.size-full{
+  padding: 41px;
+  margin-top: -78px;
+  margin-left: -54px;
+}
+
+#media_image-5{
+  bottom: 172px;
+  padding: 0px;
+  left: 43px;
+}
+
+#custom_html-3{
+  padding: 97px !important; 
+}
+
+#custom_html-6{
+  padding: 97px !important; 
+}
+
+.header_color strong{
+  left: 168px;
+padding: 7px;
+top: -7px;
+}
+
+.av_textblock_section{
+  margin-top: -36px;
+}
+
+.flex_column.av_one_full.flex_column_div.av-zero-column-padding.first.avia-builder-el-4.el_after_av_textblock.el_before_av_one_full.column-top-margin{
+  top: -50px;
+}
+
+.main_color #after_layer_slider-1{
+  margin-top: 30px !important;
+  border-color: transparent !important;
+}
+
+#menu-item-search a{
+  background-color: #41608e;
+  color: white;
+  width: 39px;
+}
+
+#searchform{
+  visibility: visible;
+}
+
+#av-masonry-1{
+  width: 1068px;
+  height: 332px;
+  left: 69px;
+  top: -70px;  
+}
+
+/* 
+.avia-search-tooltip.avia-tt{
+  display: block !important;
+}
  
+
+.avia-search-tooltip.avia-tt:active{
+  display: block !important;
+}
+ */
 /*
 Desktop Styles
 ================================================== */

@@ -45,10 +45,10 @@ background: transparent;
 
 /*logo + position variation*/
 .html_header_top #top .av_logo_right .logo{ left:auto; right:0; }
-.html_header_top #top .av_menu_left .main_menu{left:0px; right:auto;}
+.html_header_top #top .av_menu_left .main_menu{left: -235px; right: auto; top: 19px;}
 .html_header_top.html_main_nav_header #top .av_menu_left .main_menu{left:-13px; right:auto;}
 
-.html_header_top .av_bottom_nav_header .main_menu ul:first-child > li a { height:50px; line-height: 50px;}
+.html_header_top .av_bottom_nav_header .main_menu ul:first-child > li a { height:26px; line-height: 25px;}
 
 .html_header_top.html_bottom_nav_header #header_main{ z-index: 3; }
 .html_header_top.html_bottom_nav_header .main_menu{ clear: both; position: relative; line-height: 40px; height: 100%; width:100%; float:left; }
@@ -920,6 +920,8 @@ text-decoration: underline;
 
 #top #menu-item-search{
 z-index: 100;
+top: -75px;
+left: 416px
 }
 
 #top .menu-item-search-dropdown > a, #searchform #searchsubmit, .ajax_search_image, .iconfont{
@@ -1471,7 +1473,7 @@ position: relative;
 text-align: center;
 }
 
-#top #wrap_all .social_bookmarks, #top #wrap_all .social_bookmarks a, #top #wrap_all .social_bookmarks li{background: transparent;}
+#top #wrap_all .social_bookmarks, #top #wrap_all .social_bookmarks a, #top #wrap_all .social_bookmarks li{background: transparent;left: 347px; top: 37px;}
 
 #top #wrap_all .social_bookmarks li a:hover{ text-decoration: none; }
 
@@ -2636,7 +2638,9 @@ padding:30px 0 30px 0;
 float:none;
 }
 
-#footer .widget{padding:0; margin:30px 0 30px 0; overflow: hidden;}
+#footer .widget{  padding: 14px;
+	overflow: hidden;
+	margin: 0;}
 
 #top .widget ul{
 padding:0;
@@ -3305,6 +3309,7 @@ top:1px;
 #footer{
 padding:15px 0 30px 0;
 z-index: 1;
+top: 173px;
 }
 
 #socket .container{

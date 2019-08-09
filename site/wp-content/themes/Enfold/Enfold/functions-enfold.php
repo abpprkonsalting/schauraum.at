@@ -122,7 +122,7 @@ if(!function_exists('avia_append_search_nav'))
 	        get_search_form();
 	        $form =  htmlspecialchars(ob_get_clean()) ;
 
-	        $items .= '<li id="menu-item-search" class="noMobile menu-item menu-item-search-dropdown menu-item-avia-special">
+	        $items .= '<li id="menu-item-search" style="display:block" class="noMobile menu-item menu-item-search-dropdown menu-item-avia-special">
 							<a href="?s=" data-avia-search-tooltip="'.$form.'" '.av_icon_string('search').'><span class="avia_hidden_link_text">'.__('Search','avia_framework').'</span></a>
 	        		   </li>';
 	    }
