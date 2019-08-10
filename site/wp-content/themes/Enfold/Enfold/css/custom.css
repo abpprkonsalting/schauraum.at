@@ -3,9 +3,41 @@
 /* General Custom CSS */
 
 
+/*************************************** HEADER *********************************************/
+
+
+#header_main .av-logo-container .inner-container {
+display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+
+
+#header_main .av-main-nav {
+display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    padding: 0 10% 10px 0;
+}
+
 #header_main .av-main-nav li {
   float: right;
 }
+
+#header_main .av-main-nav > li > a {
+  padding: 0 15px;
+}
+
+#header_main .av-main-nav > li:first-child > a {
+  padding-right: 0;
+}
+
+#header_main .av-main-nav #menu-item-search {
+  display:none !important;
+}
+
 
 #text-4{
   left: 98px;
@@ -53,11 +85,11 @@
 }
 
 #custom_html-3{
-  padding: 97px !important; 
+  padding: 97px 0 !important; 
 }
 
 #custom_html-6{
-  padding: 97px !important; 
+  padding: 97px 0 !important; 
 }
 
 .header_color strong{
@@ -89,12 +121,12 @@ top: -7px;
   visibility: visible;
 }
 
-#av-masonry-1{
+/*#av-masonry-1{
   width: 1068px;
   height: 332px;
   left: 69px;
   top: -70px;  
-}
+}*/
 
 /* 
 .avia-search-tooltip.avia-tt{

@@ -45,7 +45,7 @@ background: transparent;
 
 /*logo + position variation*/
 .html_header_top #top .av_logo_right .logo{ left:auto; right:0; }
-.html_header_top #top .av_menu_left .main_menu{left: -235px; right: auto; top: 19px;}
+.html_header_top #top .av_menu_left .main_menu{left: 0; right: auto}
 .html_header_top.html_main_nav_header #top .av_menu_left .main_menu{left:-13px; right:auto;}
 
 .html_header_top .av_bottom_nav_header .main_menu ul:first-child > li a { height:26px; line-height: 25px;}
@@ -920,8 +920,6 @@ text-decoration: underline;
 
 #top #menu-item-search{
 z-index: 100;
-top: -75px;
-left: 416px
 }
 
 #top .menu-item-search-dropdown > a, #searchform #searchsubmit, .ajax_search_image, .iconfont{
