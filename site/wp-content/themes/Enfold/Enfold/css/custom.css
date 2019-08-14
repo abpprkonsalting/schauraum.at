@@ -117,8 +117,7 @@ display: flex;
 }
 
 .header_color strong{
-  margin: 201px;
-  height: 101px;
+margin-left: 14%;
 }
 
 .av_textblock_section{
@@ -224,6 +223,14 @@ display: flex;
 .avia_cart_buttons{
   background: white;
   border: transparent;
+}
+
+.ls-slide.ls-slide-1.ls-animating{
+  margin-top: -28px;
+}
+
+.ls-bg.ls-preloaded{
+  width: 102% !important;
 }
 
 /*a*/
