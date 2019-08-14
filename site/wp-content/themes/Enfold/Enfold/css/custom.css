@@ -200,7 +200,7 @@ margin-left: 14%;
 }
 
 .av_textblock_section{
-  margin-top: 15px;
+  margin-top: -32px;
 }
 
 #av_section_3{
@@ -210,7 +210,11 @@ margin-left: 14%;
 .button.product_type_simple.add_to_cart_button.ajax_add_to_cart{
   color: white !important;
   background: #507295 !important;
-  margin-left: 74px !important;
+  margin-left: 11% !important;
+  height: 32px;
+  font-size: 16px !important;
+  width: 76% !important;
+  padding: 8px 3px !important;
 }
 
 .button.show_details_button{
@@ -223,6 +227,7 @@ margin-left: 14%;
 .avia_cart_buttons{
   background: white;
   border: transparent;
+  background-color: #ffffff !important;
 }
 
 .ls-slide.ls-slide-1.ls-animating{
@@ -233,6 +238,17 @@ margin-left: 14%;
   width: 102% !important;
 }
 
+.inner_product_header .avia-arrow{
+  visibility: hidden;
+}
+
+div.thumbnail_container{
+
+}
+
+.product-sorting{
+  visibility: hidden;
+}
 /*a*/
 
 
