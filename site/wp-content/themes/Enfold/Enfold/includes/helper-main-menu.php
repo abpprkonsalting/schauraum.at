@@ -121,6 +121,12 @@ if($headerS['header_topbar'] == true)
 						
 						$output .= avia_logo(AVIA_BASE_URL.'images/layout/logo.png', $addition, 'strong', true);
 						
+						if (is_user_logged_in()) {
+							$output .= '<ul><li class="cart_dropdown_first" ><a href="' . get_permalink( wc_get_page_id( 'myaccount' ) ) . '"><span "'.av_icon_string('user').' "></span></a></li></ul>';
+						}
+						else {
+							$output .= '<ul><li class="cart_dropdown_first" ><a href="' . get_permalink( wc_get_page_id( 'myaccount' ) ) . '"><span "'.av_icon_string('user').' "></span></a></li></ul>';
+						}
 							if(!empty($headerS['bottom_menu']))
 							{
 								ob_start();

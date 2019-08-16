@@ -269,6 +269,7 @@ $avia_config['layout']['sidebar_right'] = array('content' => 'av-content-small a
 	'scrolltop' 	=> array( 'font' =>'entypo-fontello', 'icon' => 'ue876'),
 	'scrolldown' 	=> array( 'font' =>'entypo-fontello', 'icon' => 'ue877'),
 	'bitcoin' 		=> array( 'font' =>'entypo-fontello', 'icon' => 'ue92a'),
+	'user' 			=> array( 'font' =>'entypo-fontello', 'icon' => 'ue80a'),
 
 ));
 

@@ -11,7 +11,7 @@
 
             var headerContainer = jQuery("#header_main .av-logo-container .inner-container");
                 headerContainer.append("<form action=\"/\" id=\"searchform\" method=\"get\" class=\"\">" + 
-                "<div><input style=\"background:#3a4096\" type=\"submit\" value=\"\ue803\" id=\"searchsubmit\" class=\"button avia-font-entypo-fontello\">" +
+                "<div><input style=\"background:#507295\" type=\"submit\" value=\"\ue803\" id=\"searchsubmit\" class=\"button avia-font-entypo-fontello\">" +
                 "<input  style=\"min-width: 250px;\" type=\"text\" id=\"s\" name=\"s\" value=\"\" placeholder=\"Search\"></div></form>");
 
             // Esto es para ejecutar el código de adentro en la página home solamente. Fíjense en el código html
