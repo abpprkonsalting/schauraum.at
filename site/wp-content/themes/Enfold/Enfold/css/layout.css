@@ -3307,7 +3307,7 @@ top:1px;
 #footer{
 padding:15px 0 30px 0;
 z-index: 1;
-top: 173px;
+
 }
 
 #socket .container{
@@ -3571,13 +3571,6 @@ float:left;
 
 .comment_next_page a{
 float:right;
-}
-
-.comment_page_nav_links_bottom{
-}
-
-.comment_page_nav_links_top{
-
 }
 
 .sidebar_right .comment_container {

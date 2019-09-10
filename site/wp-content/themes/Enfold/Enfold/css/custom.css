@@ -50,21 +50,21 @@ color:#507295;
 
 
 #text-4{
-  left: 98px;
+  text-align: center;
   font-weight: bolder;
 }
-
+/* 
 #media_image-3 h3{
   margin-left: 70px;
   color: #e8eee8;
   margin-top: 13px;
 }
 
-#media_image-3{
+  #media_image-3{
   padding: 14px;
   overflow: hidden;
   margin: 0;
-}
+} 
 
 .image.wp-image-90.attachment-full.size-full{
   padding: 43px;
@@ -75,15 +75,15 @@ color:#507295;
 #media_image-3 a{
   overflow: initial;
   margin-left: -4px;
-  margin-top: -50px;
+  margin-top: -50px; 
   display: block;
   padding: 2px;
 }
-
+ 
 #media_image-4{
   left: 189px;
   top: -120px;
-}
+} 
 
 #media_image-4 h3{
   color: #e8eee8;
@@ -108,16 +108,16 @@ color:#507295;
 .image.wp-image-90.attachment-full.size-full{
   padding: 41px;
   margin-top: -33px;
-  margin-left: -31px;
+  margin-left: -31px; 
 
 }
-
+ 
 #media_image-5{
   bottom: 172px;
   padding: 0px;
   left: 43px;
-}
-
+} */
+ 
 #custom_html-3{
   padding: 97px 0 !important; 
 }
@@ -244,7 +244,7 @@ margin-left: 14%;
 }
 
 .ls-slide.ls-slide-1.ls-animating{
-  margin-top: -28px;
+  margin-top: -46px;
 }
 
 .ls-bg.ls-preloaded{
@@ -253,10 +253,6 @@ margin-left: 14%;
 
 .inner_product_header .avia-arrow{
   visibility: hidden;
-}
-
-div.thumbnail_container{
-
 }
 
 .product-sorting{
@@ -279,6 +275,60 @@ div.thumbnail_container{
 .product .inner_product .avia_cart_buttons {
   opacity: 1;
 }
+
+ #footer .flex_column.av_one_third{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+#media_image-3{
+  display: flex;
+
+flex-direction: row-reverse;
+
+justify-content: space-between;
+
+width: 200px;
+}
+
+#media_image-4{
+  display: flex;
+
+flex-direction: row-reverse;
+
+justify-content: space-between;
+
+width: 200px;
+}
+
+#media_image-3 a img{
+  width: 46px;
+  
+}
+
+#media_image-4 a img{
+  width: 46px;
+  
+}
+
+#footer .container av_one_third:nth-child(2){
+align-items: center;
+flex-direction: row-reverse;
+}
+
+/*SECTION 1*/
+
+
+
+/* #footer .flex_column.av_one_third:last-child{
+flex-direction: row;
+justify-content: center;
+} 
+
+ */
+/*propiedades del footer*/
+
 
 
 /*a*/
@@ -310,6 +360,8 @@ Desktop Styles
 @media only screen and (min-width: 768px) {
   /* Add your Desktop Styles here */
 
+
+
 }
 
 
@@ -322,4 +374,28 @@ Mobile Styles
 @media only screen and (max-width: 767px) {
   /* Add your Mobile Styles here */
 
+/*  #custom_html-6{
+    top: -139px;
+  } 
+
+ */
+
 }
+
+
+@media only screen and (max-width: 1200px){
+/* 
+   #media_image-4{
+    top: -55px;
+    left: -3px;
+  }
+
+  #media_image-5{
+    bottom: 120px;
+    left: -6px;
+  }
+  */
+
+
+}
+
