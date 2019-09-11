@@ -19,7 +19,7 @@ display: flex;
     align-items: flex-end;
     justify-content: flex-start;
     flex-direction: row-reverse;
-    padding: 0 10% 10px 0;
+    padding: 0 10% 0 0;
 }
 
 #header_main .av-main-nav li {
@@ -46,6 +46,10 @@ display: flex;
 #header_main .inner-container > ul > li > a > span::before{
 font-size: 20px;
 color:#507295;
+}
+
+#header_main_alternate {
+  margin-top:10px;
 }
 
 
@@ -367,8 +371,23 @@ Desktop Styles
 @media only screen and (min-width: 768px) {
   /* Add your Desktop Styles here */
 
+  #header .logo {
+    height: 130%;
+    top: 0;
+    left: 10%;
+  }
 
+  #top #header .av-main-nav > li > a {
+    background-color: transparent !important;
+  }
 
+  #top #header .av-main-nav > li > a .avia-menu-text{
+    padding: 5px 10px;
+  }
+
+  #top #header .av-main-nav > li:hover > a .avia-menu-text{
+    background-color: #3a4096;
+  }
 }
 
 
