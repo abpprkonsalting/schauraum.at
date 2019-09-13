@@ -296,7 +296,7 @@ margin-left: 14%;
   display: flex;
   align-items: center;
   padding: 10px 0;
-  color: #fff;
+  color: #fff !important;
 }
 
 #media_image-4 > a,#media_image-3 > a{
@@ -382,6 +382,18 @@ Desktop Styles
   #top #header .av-main-nav > li:hover > a .avia-menu-text{
     background-color: #3a4096;
   }
+}
+/*-------kunderfeedback------*/
+.post-entry.post-entry-type-page.post-entry-240 .avia_textblock.av_inherit_color:last-child {
+width: 60%;
+margin-left: 20%;
+
+}
+/*--------Uber uns-------*/
+ #av_section_2 .post-entry.post-entry-type-page.post-entry-250 .entry-content-wrapper{
+display: flex;
+flex-direction: row;
+
 }
 
 
