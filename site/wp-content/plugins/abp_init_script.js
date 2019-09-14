@@ -21,10 +21,21 @@
 
             if ( jQuery('body').hasClass("home")) {
 
+                equalizeProductHeights("#av_section_4");
 
-                
+                jQuery(window).resize(function() {
+                    equalizeProductHeights("av_section_4");
+                });
             }
         }
     );
+
+    function equalizeProductHeights (selector){
+        var full_selector = selector + " .product .inner_product_header_cell";
+        var all =jQuery(full_selector).map(function(){
+            return jQuery(this).outerHeight();
+        }).toArray();
+        jQuery(full_selector).height(Math.max.apply(Math, all));
+    }
 
 })();
