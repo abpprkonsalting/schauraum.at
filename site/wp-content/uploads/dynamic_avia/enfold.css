@@ -10,7 +10,7 @@ body.open_sans {font-family:'open sans', 'HelveticaNeue', 'Helvetica Neue', 'Hel
 			  .responsive.html_boxed.html_header_transparency #header{ width: 1310px; max-width:90%; }
 			  .responsive .container{ max-width: 1310px; }
 			
-#top #wrap_all .all_colors h3{color:#000000;font-size:18px;font-weight:normal;}
+#top #wrap_all .all_colors h3{color:#000000;font-size:18px;line-height:1.1em;font-weight:bold;}
 #top #wrap_all .all_colors h2{color:#000000;font-size:20px;text-transform:none;}
 #top #wrap_all .all_colors h1{color:#080008;font-size:34px;}
 #top #header:hover_main_alternate {background-color: #3a4096;}
